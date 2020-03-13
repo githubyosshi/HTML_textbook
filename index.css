@@ -1,0 +1,43 @@
+@charset "utf-8";
+* {               /* 最初に記述で、全ての要素のマージンとパディングを０に初期化 */
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 56px;
+  width: 100%;                      /* 幅を最大まで広げる */
+  box-shadow: 0 0 10px #dddddd;   /* 下に影をつける */
+  background-color: white;
+  position: fixed;                  /* スクロールしても表示位置固定 */
+  top: 0;                 /* 画面上部からの表示位置を０に指定（一番上に表示） */
+}
+.header-left {
+  float: left;                      /* 回り込み左端に表示 */
+}
+.header-right {
+  float: right;                     /* 回り込み右端に表示 */
+}
+.clear {
+  clear: both;                      /* 回り込み解除 */
+}
+.header-logo {              /* ロゴ画像をヘッダー高さ56pxに対して中央に配置 */
+  height: 40px;
+  margin-top: 8px;
+}
+.header-right a {
+  line-height: 56px;                /* 文字を縦方向中央に表示 */
+  color: #5a5c5f;                 /* 文字色 */
+  margin-left: 5px;                 /* リンクとリンクの間の間隔 */
+  font-size: 16px;
+  padding: 16px 5px;                /* 上下、左右 */
+}
+.header-right a:hover {             /* カーソルを乗せた時 */
+  background-color: #e2f1ff;      /* 背景色を変更 */
+  transition: background-color 0.5s;  /* 0.5秒かけて変更（アニメーション） */
+}
+.container {
+  max-width: 980px;                 /* 幅は最大980px */
+  padding: 0 30px;                  /* 左右に30pxづつ余白 */
+  margin-left: auto;                /* 中央表示 */
+  margin-right: auto;               /* 中央表示 */
+}
