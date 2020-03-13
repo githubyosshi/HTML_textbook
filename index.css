@@ -77,3 +77,19 @@
 .main h3 {
   margin-bottom: 10px;
 }
+.footer {
+  height: 120px;                      /* フッターの高さ */
+  background-color: #2f3a44;        /* フッターの背景色 */
+  color: #e8e8e8;                   /* フッターの文字色 */
+  padding-top: 20px;                  /* 余白の調整 */
+}
+.footer-left {
+  float: left;                        /* 左に配置 */
+}
+.footer-right {
+  float: right;                       /* 右に配置 */
+  padding-top: 50px;                  /* 余白の調整 */
+}
+.footer-left p {
+  margin-bottom: 8px;                 /* 余白の調整 */
+}
