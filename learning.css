@@ -1,0 +1,39 @@
+@charset "utf-8";             /* 文字コード指定 */
+.learning {
+  padding: 90px 0 60px;       /* 余白追加 */
+  color: #5a5c5f;           /* 文字色指定 */
+}
+.learning-card {
+  width: 33%;                 /* ３列表示に横幅指定 */
+  margin-top: 35px;           /* 余白追加 */
+}
+.learning-card-inner {
+  padding: 5px 5px;         /* 上下、左右余白追加 */
+  background-color: #dbe0e4;  /* 背景色 */
+  border-radius: 7px;         /* 角丸 */
+  box-shadow: 1px 1px 4px #d2d4d6;  /* 上、左右、下に影を付ける */
+  text-align: center;         /* 文字中央揃え */
+  margin: 0 20px;             /* 左右に余白 */
+}
+.learning-image {
+  width: 100%;                /* カード内に収まるサイズ指定 */
+  margin-bottom: 4px;        /* 余白追加 */
+  border-radius: 5px;         /* 角丸 */
+}
+.learning-title {
+  margin-bottom: 4px;         /* 余白追加 */
+}
+.learning-text {
+  font-size: 14px;            /* 文章の文字サイズ */
+  margin-bottom: 8px;         /* 余白追加 */
+}
+.learning-language {
+  margin-bottom: 2px;         /* 余白追加 */
+}
+.learning-language-text {
+  font-size: 14px;            /* 言語の文字サイズ */
+}
+.learning-card-wrapper {
+  display: flex;              /* 要素を横並び */
+  flex-wrap: wrap;            /* 各要素の横幅に合わせて適宜折り返し */
+}

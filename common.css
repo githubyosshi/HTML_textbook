@@ -38,7 +38,7 @@
   padding: 16px 5px;                /* 上下、左右 */
 }
 .header-right a:hover {             /* カーソルを乗せた時 */
-  background-color: #e2f1ff;      /* 背景色を変更 */
+  background-color: #bfe2fa;      /* 背景色を変更 */
   transition: background-color 0.5s;  /* 0.5秒かけて変更（アニメーション） */
 }
 .footer {
