@@ -42,4 +42,7 @@
   .google-map iframe {
     width: 100%;              /* 地図の横幅を100％でブラウザのサイズに合わせる */
   }
+  .contact input, .contact textarea {
+    width: 100%;              /* Contactページの入力欄を横幅いっぱいに表示 */
+  }
 }
