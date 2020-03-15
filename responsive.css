@@ -46,6 +46,6 @@
     width: 100%;              /* Contactページの入力欄を横幅いっぱいに表示 */
   }
   .profile {
-    font-size: 80%;
+    font-size: 80%;           /* Profileページの文字サイズを縮小 */
   }
 }
