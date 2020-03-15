@@ -39,4 +39,7 @@
   .learning-card {
     width: 100%;              /* learningページの横幅を100％＝１列表示 */
   }
+  .google-map iframe {
+    width: 100%;              /* 地図の横幅を100％でブラウザのサイズに合わせる */
+  }
 }
