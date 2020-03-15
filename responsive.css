@@ -45,4 +45,7 @@
   .contact input, .contact textarea {
     width: 100%;              /* Contactページの入力欄を横幅いっぱいに表示 */
   }
+  .profile {
+    font-size: 80%;
+  }
 }
