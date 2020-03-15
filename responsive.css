@@ -1,0 +1,36 @@
+@charset "utf-8";
+@media (max-width: 1024px) {  /* タブレット用メディアクエリ追加 */
+  .main-visual {              /* メインビジュアル部分の上下余白を小さくする */
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  .top-title {
+    font-size: 60px;          /* スタイル追加 */
+  }
+}
+@media (max-width: 670px) {   /* スマートフォン用メディアクエリ追加 */
+  .header-left {
+    display: none;            /* ロゴを非表示 */
+  }
+  .header-right {
+    float: none;              /* フロートの効果を無効化 */
+    text-align: center;       /* メニューを中央表示 */
+  }
+  .header-right a {
+    font-size: 14px;          /* メニューの文字サイズを小さくする */
+    margin-left: 2px;         /* リンクとリンクの間の間隔 */
+    padding: 16px 2px;        /* 上下、左右 */
+  }
+  .main {
+    padding: 60px 0;          /* メイン部分の上下余白を小さくする */
+  }
+  .main-image {
+    width: 280px;             /* メイン部分の画像の横幅を280pxに指定 */
+  }
+  .main p {
+    font-size: 13px;          /* メイン部分の文字サイズを13pxに指定 */
+  }
+  .footer-right {
+    padding-top: 20px;        /* フッター右側の上の余白を小さくする */
+  }
+}
