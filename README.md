@@ -12,4 +12,4 @@
         ⑴レスポンシブ対応
             viewport,  @media（メディアクエリ）
         ⑵SEO対応
-            favicon,  OGP,  Twitter
+            favicon,  OGP,  Twitter投稿機能
