@@ -7,6 +7,7 @@
         ⑶profile    経歴
         ⑷access     居住地域
         ⑸contact    問い合わせ（準備中）
+        ⑹phoenix    愛鳥紹介
 
 ＜技術＞
         ⑴レスポンシブ対応
