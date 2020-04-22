@@ -15,17 +15,25 @@
   }
 }
 @media (max-width: 670px) {   /* スマートフォン用メディアクエリ追加 */
+  .header {
+    height: 112px;
+  }
   .header-left {
     display: none;            /* ロゴを非表示 */
   }
   .header-right {
     float: none;              /* フロートの効果を無効化 */
     text-align: center;       /* メニューを中央表示 */
+    /* height: 80px; */
+    height: 40px;
   }
   .header-right a {
     font-size: 14px;          /* メニューの文字サイズを小さくする */
     margin-left: 2px;         /* リンクとリンクの間の間隔 */
-    padding: 16px 2px;        /* 上下、左右 */
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px;
+    padding: 2px 2px;        /* 上下、左右 */
   }
   .main {
     padding: 60px 0;          /* メイン部分の上下余白を小さくする */
@@ -35,6 +43,24 @@
   }
   .main p {
     font-size: 13px;          /* メイン部分の文字サイズを13pxに指定 */
+  }
+  .main-visual {
+    padding-top: 196px;
+  }
+  .learning {
+    padding: 146px 0 60px;       /* 余白追加 */
+  }
+  .profile {
+    padding: 146px 0 60px;
+  }
+  .phoenix {
+    padding: 146px 0 60px;
+  }
+  .contact {
+    padding: 146px 0 60px;
+  }
+  .access {
+    padding: 146px 0 60px;
   }
   .footer-right {
     padding-top: 20px;        /* フッター右側の上の余白を小さくする */
