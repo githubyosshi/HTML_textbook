@@ -60,4 +60,8 @@
   .profile {
     font-size: 80%;           /* Profileページの文字サイズを縮小 */
   }
+  /* ハンバーガーメニュー */
+  #nav-open {
+    display:none;
+  }
 }
