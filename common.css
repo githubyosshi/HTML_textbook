@@ -49,7 +49,7 @@
 }
 /*チェックボックス等は非表示に*/
 .nav-unshown {
-  display:none;
+  display: none;
 }
 /*アイコンのスペース*/
 #nav-open {

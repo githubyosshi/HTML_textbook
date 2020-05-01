@@ -1,11 +1,11 @@
 @charset "utf-8";
-@media screen and (min-width: 671px) {
  /* ハンバーガーメニューstart */
+@media screen and (min-width: 671px) {
   #nav-open {
-   display:none;
- }
+    display: none;
+  }
 }
-  /* ハンバーガーメニューend */
+/* ハンバーガーメニューend */
 @media (max-width: 1024px) {  /* タブレット用メディアクエリ追加 */
   .main-visual {              /* メインビジュアル部分の上下余白を小さくする */
     padding-top: 120px;
@@ -25,21 +25,16 @@
   .header {
     height: 56px;
   }
-  /* .header-left {
-    display: none;            /* ロゴを非表示 */
-  /* } */
   .header-right {
     display: none;
   }
   .header-navi {
     float: none;              /* フロートの効果を無効化 */
     text-align: center;       /* メニューを中央表示 */
-    /* height: 80px; */
     height: 40px;
   }
   .header-navi a {
-    font-size: 30px;          /* メニューの文字サイズを小さくする */
-    margin-left: 2px;         /* リンクとリンクの間の間隔 */
+    font-size: 30px;          /* メニューの文字サイズを大きくする */
     padding: 24px 2px;        /* 上下、左右 */
     line-height: 2;
   }
