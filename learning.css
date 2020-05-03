@@ -37,27 +37,3 @@
   display: flex;              /* 要素を横並び */
   flex-wrap: wrap;            /* 各要素の横幅に合わせて適宜折り返し */
 }
-
-/* ハンバーガーメニューstart */
-/*ヘッダーまわりはサイトに合わせて調整してください*/
-header {
-  padding:10px;
-  background: skyblue;
-}
-
-#nav-drawer {
-  position: relative;
-}
-
-/*チェックボックス等は非表示に*/
-.nav-unshown {
-  display:none;
-}
-
-/*アイコンのスペース*/
-#nav-open {
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-  vertical-align: middle;
-}
